@@ -17,9 +17,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,6 +54,8 @@ table {
 My CSS changes  */
 
 
+
+/* general css */
 * {
     Box-sizing: border-box;     
     Max-width: 100%;
@@ -70,6 +72,10 @@ Body{
     Line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+}
+
 H1,h2,h3,h4,h5,h6 {
     Font-family: sans-serif;
     Letter-spacing: 3px;
@@ -77,4 +83,85 @@ H1,h2,h3,h4,h5,h6 {
 
 Section {
     Padding: 4% 0;
+}
+
+/* header */
+header {
+    background-color: beige;
+    height: 30vh;
+}
+header h1 {
+    font-size: 5rem;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+/* nav */
+.links {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.links a{
+    width: 8%;
+    background-color: coral;
+    text-align: center;
+    color: grey;
+    padding:1%;
+    font-size: 2rem;
+
+}
+
+
+/*  intro section */
+.intro {
+    border: 1px solid grey;
+    display:flex;
+    justify-content: space-between;
+}
+.intro-pic {
+    width:50%;
+}
+.about-me {
+    width:50%;
+    align-self: center;
+    text-align: left;
+    padding-left: 10% 
+}
+
+
+/* projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+.projects div {
+    width:23%;
+    margin-bottom: 2%;
+}
+.projects h3 {
+    text-align: center;
+}
+
+
+/* footer */
+footer {
+    background-color: beige;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h2 {
+    font-size: 2.5rem;
+}
+.button-container {
+    width: 8%;
+}
+.contact-button {
+    width: 100%;
+    padding: 10%;
 }
