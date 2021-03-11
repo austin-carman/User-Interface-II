@@ -15,7 +15,7 @@ The module challenge is the afternoon project or assignment that students work t
 
 In this challenge you will be building a simple portfolio website based on a wireframe of your choosing using the CSS principles covered today.
 
-Portfolio websites are a great way to show off your work to friends, family, and future employers. As you progress through Lambda School you can update this site with projects you're proud of. Similarly, you can change the style, add a blog page, the possibilites are really endless.
+Portfolio websites are a great way to show off your work to friends, family, and future employers. As you progress through Lambda School you can update this site with projects you're proud of. Similarly, you can change the style, add a blog page, the possibilities are really endless.
 
 ## Instructions
 
@@ -33,6 +33,7 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
+Wire Frame: Option 1
 - [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
 - [ ]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
 - [ ]  Information about you in place of the given placeholder
