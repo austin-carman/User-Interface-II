@@ -116,7 +116,7 @@ header h1 {
 
 /*  intro section */
 .intro {
-    border: 1px solid grey;
+    border-top: 1px solid grey;
     display:flex;
     justify-content: space-between;
 }
@@ -145,6 +145,7 @@ header h1 {
 
 /* projects */
 .projects {
+    border-bottom:1px solid grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -179,12 +180,3 @@ footer h2 {
     padding: 10%;
     margin-top: 20%;
 }
-.icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-}
-.icons a {
-    width: 5%;
-}
-
