@@ -180,8 +180,11 @@ footer h2 {
     margin-top: 20%;
 }
 .icons {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
 }
-.fab fa-instagram {
-    width: 100%;
+.icons a {
+    width: 5%;
 }
+
